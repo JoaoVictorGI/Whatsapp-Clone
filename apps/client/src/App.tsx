@@ -11,7 +11,7 @@ interface User {
 }
 
 interface Message {
-  name: string | null
+  name: string
   message: string
 }
 
