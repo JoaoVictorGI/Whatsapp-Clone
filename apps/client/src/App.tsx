@@ -57,8 +57,8 @@ function App() {
       <div className="bg-emerald-600 h-1/5 w-full absolute top-0"></div>
       <div className="w-[95%] max-w-[1800px] h-[95%] bg-white absolute flex">
 
-        <div className="w-1/3 h-full border-r border-solid border-stone-300">
-          <div className="w-full h-20 bg-stone-200"></div>
+        <div className="w-1/3 h-full border-r border-solid border-slate-300">
+          <div className="w-full h-20 bg-slate-200"></div>
           <div className="box-border p-2 border-t border-b border-solid border-stone-100 flex items-center cursor-pointer">
             <img src={Image} className="w-16 h-auto rounded-full" />
             <div className="flex flex-col ml-4">
@@ -71,8 +71,8 @@ function App() {
         </div>
 
         <div className="flex-1 bg-[url('./assets/zap-bg.png')] flex flex-col justify-between">
-          <div className="w-full h-20 bg-stone-200">
-            <div className="box-border p-2 border-t border-b border-solid border-stone-100 flex items-center cursor-pointer">
+          <div className="w-full h-20 bg-slate-200">
+            <div className="box-border p-2 border-t border-b border-solid border-slate-300 flex items-center cursor-pointer">
               <img src={Image} className="w-16 h-auto rounded-full" />
               <div className="flex flex-col ml-4">
                 <span className="text-lg">Networking Profissão Programador</span>
