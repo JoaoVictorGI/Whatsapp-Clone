@@ -101,10 +101,9 @@ function App() {
                 {
                   message.name === name
                     ? (
-                        <span className="bg-green-200 p-2 rounded">
-                          {message.name}
-                          :
-                          {' '}
+                        <span className="bg-green-200 p-2 rounded leading-4">
+                         <span className='text-xs align-top justify-start items-start'>{message.name}</span> 
+                         <br /> 
                           {message.message}
                         </span>
                       )

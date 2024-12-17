@@ -68,6 +68,7 @@ docker-compose.yml
 yarn.lock
 package-lock.json
 pnpm-lock.yaml
+bun.lockb
 
 # Next.js
 .next/
